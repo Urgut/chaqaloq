@@ -4,8 +4,10 @@ import joblib
 import telebot
 import os
 
+import config.TOKEN
+
 # Telegram boti uchun token
-BOT_TOKEN = '6089550937:AAGqSBZUaet7NrIzamPFgZt35H4ZCPnyMcQ'
+BOT_TOKEN = 'TOKEN'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Chaqaloq yig'isini tahlil qilish uchun tayyor modelni yuklash
